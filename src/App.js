@@ -1,9 +1,12 @@
 import React from 'react'
+import ColorList from './components/ColorList'
+import From from './components/From'
 
 const App = () => {
   return (
     <div>
-      Color Generator
+      <From />
+      <ColorList />
     </div>
   )
 }
